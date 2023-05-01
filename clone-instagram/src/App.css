@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background:#ffffff;
+}
+
+
+.LadoEsquerdo,
+.centro,
+.ladoDireito {
+  height: 100vh;
+}
+
+.LadoEsquerdo {
+  background: #FFFFFF;
+  border-right: 2px solid #cdcdcd;
+  width: 16vw;
+}
+
+.margem{
+  width: 16vw;
+}
+
+.LadoDireito {
+  width: 29vw;
+  background:#ffffff;
+}
+
+.Centro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 0 30px 78px;
+  padding: 30px 0 0;
+}
+

@@ -1,0 +1,15 @@
+.Stories{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background: #FFFFFF;
+    height: 85px;
+    width: 630px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin: 16px 0 0 ;
+    padding: 16px 0;
+    gap: 10px;
+    position: relative;
+}

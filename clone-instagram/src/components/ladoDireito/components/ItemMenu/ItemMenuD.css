@@ -1,0 +1,43 @@
+.perfil img{
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    cursor: pointer;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    /* margin-top: 50px; */
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    margin-left:25px;
+    color: #000000;
+    margin-right: 79px;
+}
+
+.nomeUsuario{
+    cursor: pointer;
+}
+
+.nomePerfil {
+    color: #737373;
+    font-size: 14px;
+}
+
+.mudar{
+    cursor: pointer;
+    color: #0095f6;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.mudar:hover{
+    color: #80ccff;
+}
+

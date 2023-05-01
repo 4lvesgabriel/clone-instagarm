@@ -1,0 +1,214 @@
+.Post{
+    background: #fefefe;
+    width: 470px;
+    min-height: 518px;
+    margin: 12px 0 12px 0;
+    padding: 0 0 20px;
+    border-bottom:0.800px solid #F2F2F2;
+}
+
+.conteudoPost {
+    background: #cacaca;
+    width: 468px;
+    height: 468px;
+}
+
+.barraEsquerda{
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.nomePerfilAutor{
+    cursor: pointer;
+    color: #262626;
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+
+.tempoPostagem{
+    width: 60px;
+    color: #737373;
+    font-size: 14px;
+}
+
+.tempoPostagem p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.maisOpcoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.maisOpcoes svg{
+    width: 24px;
+    height: 24px;
+}
+
+.imagemPerfilAutor{
+    cursor: pointer;
+    background: #cacaca;
+    border-radius: 20px;
+    height: 35px;
+    width: 35px;
+    margin: 0;
+    object-fit: cover;
+    background: linear-gradient(white, white) padding-box,
+            linear-gradient(45deg, #fdf497 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%) border-box;
+    border-radius: 50em;
+    border: 3px solid transparent;
+}
+
+.barraSuperior{
+    height: 44px;
+    display: flex;
+    gap: 2%;
+    margin: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foto{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+.reacao {
+    display: flex;
+    flex-wrap:nowrap;
+    margin: 4px 0 0;
+    padding: 0 0 6px;
+}
+
+.reacao svg{
+    width: 24px;
+    height: 24px;
+}
+
+.reacao button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.reacao button{
+    padding: 8px;
+}
+
+.button1 svg{
+    width: 26px;
+    height: 26px;
+}
+
+.button4{
+    margin-left: 308px;
+}
+
+.gostei{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 8px;
+}
+
+.gostei .curtido{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.descricao{
+    color: #000000;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.comentarios{
+    display:flex;
+    flex-direction: column;
+    margin: 0 0 4px;
+}
+
+.comentarios svg{
+    color:#737373;
+    width: 13px;
+    height: 13px;
+}
+
+.expand{
+    color: #737373;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin: 8px 0 8px
+}
+
+.comentario{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.maior{
+    display: flex;
+    gap: 50px;
+}
+
+
+
+.adicionarComentario{
+    display: flex;
+    align-items: center;
+}
+
+.adicionarComentario textarea{
+    resize: none;
+    border: none;
+    overflow: hidden;
+    outline: none;
+    font-size: 14px;
+    width:100%;
+    height: 20px;
+    text-overflow: ellipsis;
+    max-height: 20px;
+}
+
+.adicionarComentario svg{
+    color: #737373;
+    width: 13px;
+    height: 13px;
+}
+
+.caixacomentarios{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin: 0 0 4px;
+}
+
+.caixacomentarios .maior{
+    flex-grow: 0.01;
+}
+
+.caixacomentarios .comentario{
+    flex-grow: 1;
+}
+
+.caixacomentarios .likecomentario{
+    flex-grow: 0.001;
+}
+
+.likecomentario{
+    margin: 0 0 0 8px;
+}
