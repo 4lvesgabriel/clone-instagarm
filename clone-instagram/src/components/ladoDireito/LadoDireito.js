@@ -2,7 +2,7 @@ import './LadoDireito.css'
 import ItemMenuD from './components/ItemMenu/ItemMenuD'
 import Sugestoes from './components/Sugestoes/Sugestoes'
 import Links from './components/Links/Links'
-import ImgPerfil from '../imagens/luffy.png'
+import ImgPerfil from '../imagens/noodle.jpg'
 import sugestao1 from '../imagens/reiayanami.jpg'
 import sugestao2 from '../imagens/ikarigendo.png'
 import sugestao3 from '../imagens/walterwhite.jpg'
@@ -13,7 +13,7 @@ function LadoDireito(){
     return(
         <div className="LadoDireito">
             <div className="PerfilD">
-                <ItemMenuD nomeUsuario="Luffy" nomePerfil="Rei dos Piratas" imgPerfil={ImgPerfil} />
+                <ItemMenuD nomeUsuario="gg" nomePerfil="Gabriel Alves" imgPerfil={ImgPerfil} />
             </div>
             <div className="Sugestoes">
                 <div className="titulo">

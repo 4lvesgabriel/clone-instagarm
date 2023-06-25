@@ -1,5 +1,5 @@
 import './PerfilMenu.css'
-import Foto from '../../../imagens/luffy.png'
+import Foto from '../../../imagens/noodle.jpg'
 
 function PerfilMenu (){
     return(
